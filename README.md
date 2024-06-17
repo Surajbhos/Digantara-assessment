@@ -1,1 +1,2 @@
 # Digantara-assessment
+Implemented LSTM Autoencoder for Maneuver Detection of Spacecraft. When training an Autoencoder, the objective is to reconstruct the input as best as possible. This is done by minimizing a loss function. This function is known as reconstruction loss. Cross-entropy loss and Mean squared error are common examples. Thrshold is set for reconstruction error. Data points with high reconstruction error are considered as anomalous. Here Maneuver is treated as anomaly from variation of Semi Major Axis of Spacecraft.
